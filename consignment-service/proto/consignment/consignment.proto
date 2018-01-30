@@ -3,6 +3,7 @@ syntax = "proto3";
 
 package go.micro.srv.consignment; 
 
+//define service, contain the methods expose to other services
 service ShippingService {
   rpc CreateConsignment(Consignment) returns (Response) {}
 }
