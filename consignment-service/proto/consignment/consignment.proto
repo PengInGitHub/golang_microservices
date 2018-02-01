@@ -8,6 +8,7 @@ service ShippingService {
   rpc CreateConsignment(Consignment) returns (Response) {}
 }
 
+//define messafe types
 message Consignment {
   string id = 1;
   string description = 2;
