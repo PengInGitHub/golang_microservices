@@ -12,5 +12,5 @@ Protocol Buffers v3:the protoc compiler that is used to generate gRPC service co
 To note, pay attention to make file in tutorial one: the path in Makefile may be wrong, must be adapted to your machine.<br/> 
 .proto is a protobuf definition file that defines a gRPC service<br/> 
 GRPC is a high performance, open-source, universial RPC framework<br/> 
-Compiling the .proto with protocol tool with the grpc plugin will marshal/unmarshal the msg btw Go code and buffer protocol buffer binary msg.
-
+Compiling the .proto with protocol tool with the grpc plugin will marshal/unmarshal the msg btw Go code and buffer protocol buffer binary msg.<br/> 
+cli.go: an interface takes a JSON consignment file and interact with gRPC service<br/> 
