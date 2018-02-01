@@ -6,7 +6,7 @@ Golang: light, fast, support concurrency<br/>
 go-micro: the microservice framework available for Go<br/> 
 communication is very important in microservice since microservices are separated<br/> 
 gRPC:light-weight binary based RPC communication protocol made by Google<br/> 
-protobuf:the interchange DSL of gRPC, used to define service interface 
-
-
+protobuf:the interchange DSL of gRPC, used to define service interface
+Protocol Buffers v3:the protoc compiler that is used to generate gRPC service code
+Pay attention to make file in tutorial one: the path in Makefile may be wrong, must be adapted to your machine
 
