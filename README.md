@@ -10,6 +10,6 @@ protobuf:the interchange DSL of gRPC, used to define interface to service<br/>
 Protocol Buffers v3:the protoc compiler that is used to generate gRPC service code<br/> 
 
 To note, pay attention to make file in tutorial one: the path in Makefile may be wrong, must be adapted to your machine.<br/> 
-
 .proto is a protobuf definition file that defines a gRPC service<br/> 
+GRPC is a high performance, open-source, universial RPC framework<br/> 
 
