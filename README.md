@@ -16,5 +16,5 @@ Compiling the .proto with protocol tool with the grpc plugin will marshal/unmars
 cli.go: an interface takes a JSON consignment file and interact with gRPC service<br/> 
 Protocol Buffers: protocol buffers is a method of serializing structured data. It is useful in developing programs to communicate with each other over a wire or for storing data.<br/> 
 How Protocol Buffers works: In a proto definition file (.proto) developer defines the service and data structure that called message and compile it with protoc. This compilation generates code could be invoked by a sended or recipient of these data structures. For example, example.proto will produce example.pb.cc and example.pb.h, which will define c++ classes for each message and service that example.proto defines.<br/> 
-
+What-to-do in proto definition file:first of all, define the service, this should contain the mehtods you wish to expose to other services. Then you define the messages, which are effectively the data structure.
  
