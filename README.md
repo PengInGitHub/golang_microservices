@@ -14,3 +14,4 @@ To note, pay attention to make file in tutorial one: the path in Makefile may be
 GRPC is a high performance, open-source, universial RPC framework<br/> 
 Compiling the .proto with protocol tool with the grpc plugin will marshal/unmarshal the msg btw Go code and buffer protocol buffer binary msg.<br/> 
 cli.go: an interface takes a JSON consignment file and interact with gRPC service<br/> 
+Protocol Buffers: protocol buffers is a method of serializing structured data. It is useful in developing programs to communicate with each other over a wire or for storing data
