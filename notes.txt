@@ -4,7 +4,7 @@
 
 3.gRPC is a high performance, open-source, universial RPC framework from Google.
 
-Compiling the .proto with protocol tool with the grpc plugin will marshal/unmarshal the msg btw Go code and buffer protocol buffer binary msg.
+4.Compiling the .proto with protocol tool with the grpc plugin will marshal/unmarshal the msg btw Go code and buffer protocol buffer binary msg.
 
 cli.go: an interface takes a JSON consignment file and interact with gRPC service<br/> 
 Protocol Buffers: protocol buffers is a method of serializing structured data. It is useful in developing programs to communicate with each other over a wire or for storing data.
