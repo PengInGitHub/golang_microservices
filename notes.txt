@@ -1,6 +1,6 @@
-To note, pay attention to make file in tutorial one: the path in Makefile may be wrong, must be adapted to your machine.
+1.To note, pay attention to Makefile in tutorial one: the path in Makefile may be wrong, must be adapted to your machine.
 
-.proto is a protobuf definition file that defines a gRPC service
+ .proto is a protobuf definition file that defines a gRPC service
 
 GRPC is a high performance, open-source, universial RPC framework
 
