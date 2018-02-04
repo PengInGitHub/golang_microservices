@@ -14,5 +14,5 @@
 
 8.What-to-do in proto definition file:first of all, define the service, this should contain the mehtods you wish to expose to other services. Then you define the messages, which are effectively the data structure. In proto, message is handled by protobuf and service is handled by gRPC plugin which compiles code to interact with service.
  
-Makefile: call protoc library, which is responsible for compiling the protobuf definition into code. In addition usage of gRPC is specified as well as context and ouput path 
+9.Makefile: call protoc library, which is responsible for compiling the protobuf definition into code. In addition usage of gRPC is specified as well as context and ouput path. 
  
